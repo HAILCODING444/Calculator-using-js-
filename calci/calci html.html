@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <div class="container">
+            <h1 class="head">CALCULATOR USING JAVASCRIPT</h1>
+            <input type="text" name="result" id="result">
+            <table border="0.1">
+                <tr>
+                    <td colspan="2" onclick="clr()"><input class="pink" type="button" value="AC" width="100%" ></td>
+                    <td colspan="1" onclick="view('/')"><input class="blue" type="button" value="/"></td>
+                    <td colspan="1" onclick="view('*')"><input class="blue"type="button" value="*"></td>
+                </tr>
+                <tr>
+                    <td colspan="1" onclick="view('7')"><input class="blue" type="button" value="7"></td>
+                    <td colspan="1" onclick="view('8')"><input class="blue" type="button" value="8"></td>
+                    <td colspan="1" onclick="view('9')"><input class="blue" type="button" value="9"></td>
+                    <td colspan="1" onclick="view('-')"><input class="blue" type="button" value="-"></td>
+                </tr>
+                <tr>
+                    <td colspan="1" onclick="view('4')"><input class="blue" type="button" value="4"></td>
+                    <td colspan="1" onclick="view('5')"><input class="blue" type="button" value="5"></td>
+                    <td colspan="1" onclick="view('6')"><input class="blue" type="button" value="6"></td>
+                    <td rowspan="2" onclick="view('+')"><input class="blue" type="button" value="+" style="height:167px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="1" onclick="view('3')"><input class="blue" type="button" value="3"></td>
+                    <td colspan="1" onclick="view('2')"><input class="blue" type="button" value="2"></td>
+                    <td colspan="1" onclick="view('1')"><input class="blue" type="button" value="1"></td>
+                </tr>
+                <tr>
+                    <td colspan="1" onclick="view('0')"><input class="blue" type="button" value="0"></td>
+                    <td colspan="1" onclick="view('0')"><input class="blue" type="button" value="00"></td>
+                    <td colspan="1" onclick="view('.')"><input class="blue" type="button" value="."></td>
+                    <td colspan="1" onclick="compute()"><input class="skyblue" type="button" value="=" ></td>
+                </tr>
+            </table>
+        </div>
+    </center>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*  assigning colours  */
+
+.pink{
+    background-color: rgb(226, 137, 204);
+}
+.blue{
+    background-color: rgb(91, 91, 133);
+}
+.skyblue{
+    background-color: cyan;
+}
+/* assigning colours ends  */
+
+/* main heading  */
+.head{
+    color: aliceblue;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 60px;
+}
+.container{
+    margin: auto;
+    margin-top: 10%;
+    background-color: black;
+}
+/* result area starts  */
+input[type="text"]{
+    font-size: 24px;
+    width: auto;
+    height: 50px;
+    background-color: rgb(186, 204, 219);
+    border:1px solid gray;
+}
+/* result area ends */
+/* buttons area starts  */
+input[type="button"]{
+    border: antiquewhite;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100%;
+    padding: 26px;
+    font-size: 27px;
+    color: aliceblue;
+}
+/* buttons area ends */
